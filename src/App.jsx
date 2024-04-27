@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <p class="text-xl ...">The quick brown fox ...</p>
-      <p class="text-2xl ...">The quick brown fox ...</p>
+      <p class="text-2xl ...">The quick brown foxasdasdsd sdfsdfsdfsdf...</p>
     </>
   );
 }
