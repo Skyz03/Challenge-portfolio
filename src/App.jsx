@@ -292,6 +292,38 @@ function App() {
         </div>
       </section>
 
+      {/* ABOVE IS SAVIN SAMPLE CODE  */}
+
+      {/* PORTFOLIO SECTION  */}
+      <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+          <div class="max-w-screen-md mb-8 lg:mb-16 text-left">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white ">
+              PORTFOLIO
+            </h2>
+            <p class="text-gray-500 sm:text-xl dark:text-gray-400">
+              Check out my collection
+            </p>
+          </div>
+          <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-4 md:space-y-0">
+            {/* AN ARRAY OF 8 ELEMENTS  */}
+            {[...Array(8)].map((_, index) => (
+              <div key={index} className="">
+                <img
+                  className="mx-auto"
+                  src="https://picsum.photos/280/300"
+                  alt={`PORTFILIO IMAGE ${index + 1}`}
+                />
+              </div>
+            ))}
+            {/* 8 TIME REPETED IMAGE  */}
+          </div>
+        </div>
+      </section>
+
+      {/* PORTFOLIO SECTION  */}
+
+      {/* BELOW IS SAVIN SAMPLE CODE  */}
       <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
           <div class="sm:flex flex-cl sm:items-center sm:justify-between">
