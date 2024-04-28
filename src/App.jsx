@@ -298,12 +298,12 @@ function App() {
       {/* PORTFOLIO SECTION  */}
       <section class="bg-black dark:bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-          <div class="max-w-screen-md mb-8 lg:mb-16 text-left">
+          <div class="flex justify-between mb-8 lg:mb-16 text-left">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white ">
               PORTFOLIO
             </h2>
             <p class="text-gray-500 sm:text-xl dark:text-gray-400">
-              Check out my collection
+              VIEW PORTFOLIO
             </p>
           </div>
           <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-4 md:space-y-0">
@@ -321,8 +321,68 @@ function App() {
           </div>
         </div>
       </section>
-
       {/* PORTFOLIO SECTION  */}
+
+      {/* SERVICES SECTION  */}
+      <section class="bg-black dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+          <div class="flex justify-between mb-8 lg:mb-16 text-center">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white ">
+              SERVICES
+            </h2>
+          </div>
+          <div class="md:flex md:justify-between text-left gap-12">
+            <div class="md:w-1/3 md:px-2 md:mb-8">
+              <div class="mb-8">
+                <h3 class="mb-2 text-2xl font-bold text-white">Service 1</h3>
+                <p class="text-gray-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quibusdam incidunt eligendi nihil ad reiciendis veritatis?
+                  Praesentium velit ad doloremque error.
+                </p>
+              </div>
+              <div class="mb-8">
+                <h3 class="mb-2 text-2xl font-bold text-white">Service 2</h3>
+                <p class="text-gray-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempora nostrum, quasi asperiores voluptas ab voluptatum esse.
+                  Soluta enim eveniet iusto?
+                </p>
+              </div>
+            </div>
+            <div class="md:w-1/3 md:px-2 md:mb-8">
+              <div class="mb-8">
+                <img
+                  class="w-full mb-4"
+                  src="https://picsum.photos/1200/1200"
+                  alt="Full-width image"
+                />
+              </div>
+            </div>
+            <div class="md:w-1/3 md:px-2 md:mb-8">
+              <div class="mb-8">
+                <h3 class="mb-2 text-2xl font-bold text-white">Service 3</h3>
+                <p class="text-gray-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  neque voluptates vitae, atque porro architecto et, qui quo
+                  necessitatibus exercitationem consequatur itaque magnam vel
+                  culpa.
+                </p>
+              </div>
+              <div class="mb-8">
+                <h3 class="mb-2 text-2xl font-bold text-white">Service 4</h3>
+                <p class="text-gray-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                  reprehenderit quisquam dignissimos iusto architecto assumenda
+                  odit nobis ratione repudiandae fuga.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SERVICES SECTION  */}
 
       {/* BELOW IS SAVIN SAMPLE CODE  */}
       <footer class="bg-black rounded-lg shadow dark:bg-gray-900 m-4">
