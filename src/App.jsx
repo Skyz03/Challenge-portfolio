@@ -49,7 +49,7 @@ function App() {
             </svg>
           </button>
           <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-black dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <a
                   href="#"
@@ -96,7 +96,7 @@ function App() {
         </div>
       </nav>
 
-      <section class="bg-white dark:bg-gray-900">
+      <section class="bg-black dark:bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
           <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
             We invest in the world’s potential
@@ -129,7 +129,7 @@ function App() {
             </a>
             <a
               href="#"
-              class="py-3 px-5 sm:ms-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-70"
+              class="py-3 px-5 sm:ms-4 text-sm font-medium text-gray-900 focus:outline-none bg-black rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-70"
             >
               Learn more
             </a>
@@ -139,7 +139,7 @@ function App() {
 
       <section class="mb-40 overflow-hidden">
         <nav
-          class="relative flex w-full items-center justify-between bg-white py-2 shadow-sm shadow-neutral-700/10 dark:bg-neutral-800 dark:shadow-black/30  lg:flex-wrap lg:justify-start"
+          class="relative flex w-full items-center justify-between bg-black py-2 shadow-sm shadow-neutral-700/10 dark:bg-neutral-800 dark:shadow-black/30  lg:flex-wrap lg:justify-start"
           data-te-navbar-ref
         >
           <div class="flex w-full flex-wrap items-center justify-between px-6">
@@ -296,7 +296,7 @@ function App() {
       {/* ABOVE IS SAVIN SAMPLE CODE  */}
 
       {/* PORTFOLIO SECTION  */}
-      <section class="bg-white dark:bg-gray-900">
+      <section class="bg-black dark:bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div class="max-w-screen-md mb-8 lg:mb-16 text-left">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white ">
@@ -325,7 +325,7 @@ function App() {
       {/* PORTFOLIO SECTION  */}
 
       {/* BELOW IS SAVIN SAMPLE CODE  */}
-      <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+      <footer class="bg-black rounded-lg shadow dark:bg-gray-900 m-4">
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
           <div class="sm:flex flex-cl sm:items-center sm:justify-between sm:flex-col">
             <a
